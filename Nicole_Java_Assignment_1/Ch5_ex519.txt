@@ -1,0 +1,28 @@
+QUESTIONS
+5.19 Assume that i = 1, j = 2, k = 3 and m = 2. What does each of the following statements print?
+System.out.println(i == 1);
+System.out.println(j == 3);
+System.out.println((i >= 1) && (j < 4));
+System.out.println((m <= 99) & (k < m));
+System.out.println((j >= i) || (k == m));
+System.out.println((k + m < j) | (3 - j >= k));
+System.out.println(!(k > m));
+
+ANSWERS
+True -  1 equals 1.
+
+False - 2 does not equal 3.
+
+True  - 1 is greater than or equal to 1 and 2 is less than four - both sides are equal so the entire statement is true.
+
+False - 2 is less than or equal to 99 is a true statement, but 3 is less than 2 is a false statement. Therefore,
+        the entire statement is false.
+
+True  - 2 being less than or equal to 1 is true. Even though the other half of the operand is false (3 does not equal 2), 
+        the first half only needs to be true for the entire thing to be true
+
+False - Simplifying the statement makes it 5 is less than 2 (false) or 1 is greater than or less than 3 (false). 
+        Since both sides are false, the entire statment is false
+
+False - the ! at the beginning switches the true statement (3 is less than 2) into a false one. (Or, if the statement was false,
+        it would make it true.)
